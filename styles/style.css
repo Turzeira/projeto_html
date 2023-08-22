@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00030C;
+    box-sizing: border-box;
+}
+
+
+.apresentacao {
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5.12rem;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 3.12rem;
+}
+
+.apresentacao__conteudo__titulo{
+    width: 60rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+
+.apresentacao__conteudo__imagem{
+    width: 45%;
+    align-self: center;
+    
+}
+
+.apresentacao__botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.apresentacao__botao__azul{
+    background: #167BF7;
+    width: 45rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.apresentacao__botao__branco{
+    width: 35rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #FFF;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.apresentacao__botao__conteudo{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.pagina1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pagina1__imagem {
+    width: 31.125rem;
+    height: 35rem;
+    padding: 8%;
+}
+
+.pagina1__texto{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.pagina1__texto__titulo {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.pagina1__texto__subtitulo {
+    color: #F9F9F9;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+.pagina2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.pagina2__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 9% 0 0 0;
+}
+
+.pagina2__texto__titulo{
+    width: 45rem;
+    color: #F9F9F9;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.pagina2__texto__botao{
+    border-radius: 0.5rem;
+    background: #167BF7;
+    width: 11rem;
+    padding: 1rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.pagina2__imagem{
+    width: 50%;
+    padding: 2% 0 0 0 ;
+}
+
+
+.pagina3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.pagina3__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 24% 2% 5% 2%;
+    width: 36.75rem;
+}
+
+.pagina3__texto__titulo{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.pagina3__texto__subtitulo{
+    color: #F9F9F9;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.pagina3__imagem{
+    padding: 18% 4%;
+}
+
+
+.pagina4{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3% 2% 10% 2%;
+}
+
+.pagina4__texto{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.pagina4__imagem{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.pagina4__imagem__tv__texto{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.pagina4__imagem__computador__texto{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.pagina4__imagem__celular__texto{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 0 20% 0 20%;
+}
+
+.rodape__imagem{
+    padding: 8% 2% 2% 45%;
+}
+
+.rodape__textos{
+    display: inline-flex; 
+    align-items: flex-start;
+    gap: 1rem;
+    width: 70.25rem;
+    padding: 1%;
+    text-decoration: none;
+}
+
+.rodape__textos__textos{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.rodape__texto{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
