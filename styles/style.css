@@ -309,3 +309,36 @@ body{
     font-weight: 400;
     line-height: 150%; 
 }
+
+
+@media  screen and (max-width: 768px){
+    .pagina1,
+    .pagina2,
+    .pagina3,
+    .pagina4 {
+        flex-direction: column-reverse; /* Inverter ordem */
+    }
+
+    .apresentacao__conteudo{
+        gap:0.05rem
+    }
+
+    .apresentacao__conteudo__titulo{
+        width: 35rem;
+        padding: 0 0 10% 30%;
+        font-size: 2rem;
+    }
+
+    .apresentacao__conteudo__imagem{
+        padding: 0% 0% 0 60%;
+        width: 80%;
+    
+    }
+
+    .apresentacao__botao{
+        width: 20rem;
+        padding: 10% 10% 10% 50%;
+        font-size: 2rem;
+    }
+
+}
