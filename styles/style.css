@@ -310,8 +310,7 @@ body{
     line-height: 150%; 
 }
 
-
-@media  screen and (max-width: 1200px){
+@media  screen and (max-width: 768px){
     .pagina1,
     .pagina2,
     .pagina3,
@@ -325,7 +324,7 @@ body{
 
     .apresentacao__conteudo__titulo{
         width: 35rem;
-        padding: 0 0 10% 30%;
+        padding: 0 0 0 30%;
         font-size: 2rem;
     }
 
@@ -337,7 +336,7 @@ body{
 
     .apresentacao__botao{
         width: 20rem;
-        padding: 10% 10% 10% 50%;
+        padding: 10% 10% 9% 50%;
         font-size: 2rem;
     }
 
